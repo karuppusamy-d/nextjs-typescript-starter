@@ -1,0 +1,62 @@
+{
+  "name": "Next.js",
+  "short_name": "Next.js",
+  "start_url": "/",
+  "description": "It is a Next.js typescript starter template",
+  "display": "standalone",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicons/android-chrome-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicons/android-chrome-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Home",
+      "short_name": "Home",
+      "url": "/",
+      "description": "Home page",
+      "icons": [
+        {
+          "src": "/favicons/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Open About",
+      "short_name": "About",
+      "url": "/about",
+      "description": "Know more about us",
+      "icons": [
+        {
+          "src": "/favicons/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
