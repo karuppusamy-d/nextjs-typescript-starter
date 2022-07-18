@@ -2,8 +2,7 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  mode: "jit",
-  purge: ["./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
@@ -16,6 +15,7 @@ module.exports = {
       },
       colors: {
         primary: colors.sky,
+        gray: colors.neutral,
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -142,9 +142,6 @@ module.exports = {
         dark: "0 2px 12px 0 rgba(0, 0, 0, 0.18)",
       },
     },
-  },
-  variants: {
-    typography: ["dark"],
   },
   plugins: [],
 };
